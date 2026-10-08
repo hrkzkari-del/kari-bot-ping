@@ -13,5 +13,5 @@ jobs:
       - name: Ping Jumys bot
         run: curl -fsS --max-time 90 --retry 3 --retry-delay 10 https://kari-jumys-bot.onrender.com
       - name: Ping Director bot
-        # ЗАМЕНИТЕ адрес на тот, что покажет Render у нового сервиса kari-director-bot
-        run: curl -fsS --max-time 90 --retry 3 --retry-delay 10 https://kari-director-bot.onrender.com
+        # ЗАМЕНИТЕ адрес на тот, что покажет Render у нового сервиса kari-director-bot-1
+        run: curl -fsS --max-time 90 --retry 3 --retry-delay 10 https://kari-director-bot-1.onrender.com
